@@ -1,3 +1,5 @@
+/* Main Body */
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,6 +7,8 @@ body {
     font-family: Tahoma, sans-serif;
     flex-wrap: wrap;
 }
+
+/* Header, Welcome text*/
 
 .header-section {
     background: #1f2937;
@@ -30,7 +34,7 @@ body {
     margin-right: 20px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #e5e7eb;
     flex-wrap: nowrap;
@@ -38,7 +42,7 @@ a {
     flex-basis: 120px;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -97,4 +101,28 @@ button.header-sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: #E5E7EB;
 }
