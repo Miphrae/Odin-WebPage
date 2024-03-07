@@ -97,11 +97,26 @@ button.header-sign-up {
 .placeholder-image {
     flex: 1;
     height: 250px;
-    background-color: blanchedalmond;
+    background-color: grey;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
 
 
 
